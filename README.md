@@ -1,1 +1,1 @@
-#Compiador automático de linhas
+# Compiador automático de linhas
