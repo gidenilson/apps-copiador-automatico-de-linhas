@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copiador automático de linhas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.8.0/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <main id="page">
+        <h1>Copiador automático de linhas</h1>
+        <p>Cole aqui as linhas de texto vindos, por exemplo, de uma planilha, e clique no botão [PROCESSAR] </p>
+
+        <textarea id="lista" class="uk-textarea"></textarea>
+
+        <button id="ok" class="uk-button uk-button-primary">PROCESSAR</button>
+        <input id="numeracao" class="uk-checkbox" value="true" type="checkbox"> numerar linhas
+        <div id="resposta">
+            <p>Clique sobre uma linha de cada vez para copiá-la automaticamente para a área de transferência.</p>
+            <p>Após clicar numa linha é só colar o conteúdo onde você quiser, utilizando CTRL+V. </p>
+        </div>
+
+        <div id="wrapper">
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+#page{
+    max-width: 600px;
+    margin:auto;
+    padding: 10px;
+  }
+  #lista{
+    width: 100%;
+    height: 40vh;
+  }
+  
+  p{
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+  .linha{
+    display: flex;
+    padding: 5px;
+    border-top: 1px solid gray;
+  }
+  .linha:first-child{
+    margin-top: 10px;
+  }
+  .linha:last-child{
+    border-bottom: 1px solid gray;
+  }
+  .linha.copiada{
+    background-color: gray;
+    color: #e3e3e3;
+    transition: 0.3s;
+  }
+  
+  .numeracao{
+    padding-right: 10px;
+  }
+  
+  #resposta{
+    margin: 10px 0;
+    display:none;
+  }
