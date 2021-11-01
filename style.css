@@ -38,3 +38,9 @@
     margin: 10px 0;
     display:none;
   }
+
+footer{
+    margin-top: 30px;
+    font-size: 0.6rem;
+    color: gray;
+}
